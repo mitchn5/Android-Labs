@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">AndroidLabs</string>
-    <string name="hello_message" translatable="false">Hello World!</string>
-    <string name="buttonText" translatable="false">I\'m a button</string>
+    <string name="hello_message" translatable="true">Hello World!</string>
+    <string name="buttonText" translatable="true">I\'m a button</string>
+    <string name="widgetText" translatable="true">Here are my widgets:</string>
+    <string name="checkText" translatable="true">Check this out!</string>
+    <string name="editHint" translatable="true">Type your answer here</string>
+    <string name="switchText" translatable="true">Switch on/off</string>
 </resources>

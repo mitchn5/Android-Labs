@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/widgetText"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/aButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/canadianButton"
+        android:text="@string/buttonText" />
+
+    <ImageButton
+        android:id="@+id/canadianButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/flag"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/canadianButton"
+        android:layout_toLeftOf="@id/switchOO"
+        android:layout_alignParentStart="true"
+        android:text="@string/checkText" />
+
+    <Switch
+        android:id="@+id/switchOO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/canadianButton"
+        android:layout_alignParentEnd="true"
+        android:text="@string/switchText" />
+
+</RelativeLayout>
