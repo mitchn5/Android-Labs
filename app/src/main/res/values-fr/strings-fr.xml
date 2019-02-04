@@ -7,4 +7,14 @@
     <string name="checkText">Regarde ça!</string>
     <string name="editHint">Tapez votre réponse ici</string>
     <string name="switchText">Commutateur Allumé / éteint</string>
+    <string name="l3text1">Entrez vos addresse email</string>
+    <string name="l3text2">Entrez vos mot de passe</string>
+    <string name="l3edit1">Écrivez email ici</string>
+    <string name="l3edit2">Écrivez vos nom ici</string>
+    <string name="loginT">CONNECTER</string>
+    <string name="yourProfile">Votre profil</string>
+    <string name="yourName">Votre nom:</string>
+    <string name="yourEmail">Votre email:</string>
+    <string name="yourPicture">Votre image:</string>
+    <string name="clickText">Cliquez sur le bouton ci-dessus pour prendre une photo</string>
 </resources>

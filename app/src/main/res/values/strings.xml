@@ -6,4 +6,14 @@
     <string name="checkText" translatable="true">Check this out!</string>
     <string name="editHint" translatable="true">Type your answer here</string>
     <string name="switchText" translatable="true">Switch on/off</string>
+    <string name="l3text1">Enter your email address</string>
+    <string name="l3text2">Enter your password</string>
+    <string name="l3edit1">Type email here</string>
+    <string name="l3edit2">Type name here</string>
+    <string name="loginT">LOGIN</string>
+    <string name="yourProfile"> Your profile</string>
+    <string name="yourName">Your name:</string>
+    <string name="yourEmail">Your email:</string>
+    <string name="yourPicture">Your picture:</string>
+    <string name="clickText">Click the button above to take picture</string>
 </resources>
