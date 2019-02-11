@@ -16,4 +16,8 @@
     <string name="yourEmail">Your email:</string>
     <string name="yourPicture">Your picture:</string>
     <string name="clickText">Click the button above to take picture</string>
+    <string name="chatText">Go to chat</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="chatHint">Type here</string>
 </resources>

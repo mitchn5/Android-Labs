@@ -13,6 +13,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ChatRoomActivity"></activity>
         <activity android:name=".AndroidLabActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

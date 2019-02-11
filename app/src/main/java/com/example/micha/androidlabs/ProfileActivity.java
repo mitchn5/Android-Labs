@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
@@ -15,6 +16,7 @@ public class ProfileActivity extends AppCompatActivity {
     static final int REQUEST_IMAGE_CAPTURE = 1;
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
     ImageButton picButton;
+    Button chatButton;
     EditText emailText;
     Intent intent;
 
@@ -31,6 +33,13 @@ public class ProfileActivity extends AppCompatActivity {
         picButton.setOnClickListener((View v) -> {
             dispatchTakePictureIntent();
         });
+        chatButton = findViewById(R.id.chatButton);
+        chatButton.setOnClickListener((View v) ->
+        {
+            Intent intent = new Intent(this, ChatRoomActivity.class);
+            startActivity(intent);
+        });
+
     }
     @Override
     protected void onStart() {
