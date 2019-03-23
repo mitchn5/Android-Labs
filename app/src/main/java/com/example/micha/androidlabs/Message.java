@@ -1,20 +1,31 @@
 package com.example.micha.androidlabs;
 
 public class Message {
-    char type;
     String text;
+    long id;
+    boolean isSent;
+    boolean isReceived;
 
-    public Message(char ty, String te) {
-        this.type = ty;
+    public Message( String te, long id, boolean iS, boolean iR) {
         this.text = te;
+        this.id = id;
+        this.isSent = iS;
+        this.isReceived = iR;
     }
 
     public String getText() {
         return text;
     }
 
-    public char getType() {
-        return type;
+    public long getId() {
+        return id;
     }
 
+    public boolean getIsSent() {
+        return isSent;
+    }
+
+    public boolean getIsReceived() {
+        return isReceived;
+    }
 }

@@ -16,7 +16,7 @@ public class ProfileActivity extends AppCompatActivity {
     static final int REQUEST_IMAGE_CAPTURE = 1;
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
     ImageButton picButton;
-    Button chatButton;
+    Button chatButton, layoutButton, weatherButton;
     EditText emailText;
     Intent intent;
 
@@ -29,14 +29,30 @@ public class ProfileActivity extends AppCompatActivity {
         intent = getIntent();
         emailText = findViewById(R.id.profileEmail);
         emailText.setText(intent.getStringExtra("ReserveName"));
+
         picButton = findViewById(R.id.userPicIn);
         picButton.setOnClickListener((View v) -> {
             dispatchTakePictureIntent();
         });
+
         chatButton = findViewById(R.id.chatButton);
         chatButton.setOnClickListener((View v) ->
         {
             Intent intent = new Intent(this, ChatRoomActivity.class);
+            startActivity(intent);
+        });
+
+        layoutButton = findViewById(R.id.layoutButton);
+        layoutButton.setOnClickListener((View v) ->
+        {
+            Intent intent = new Intent(this, TestToolbar.class);
+            startActivity(intent);
+        });
+
+        weatherButton = findViewById(R.id.weatherButton);
+        weatherButton.setOnClickListener((View v) ->
+        {
+            Intent intent = new Intent(this, WeatherForecast.class);
             startActivity(intent);
         });
 

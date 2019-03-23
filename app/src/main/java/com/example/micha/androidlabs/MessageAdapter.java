@@ -39,9 +39,8 @@ public class MessageAdapter extends BaseAdapter {
         LayoutInflater inflater = LayoutInflater.from(this.context);
         View newView;
         TextView tv;
-        tv = null;
 
-        if (texts.get(position).getType() == 'r') {
+        if (texts.get(position).getIsReceived() == true) {
             newView = inflater.inflate(R.layout.receive_layout, parent, false);
             tv = newView.findViewById(R.id.messageReceive);
             tv.setText(getItem(position).getText());

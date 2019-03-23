@@ -21,4 +21,14 @@
     <string name="send">Envoyez</string>
     <string name="receive">Recevoir</string>
     <string name="chatHint">Tapez ici</string>
+    <string name="layoutText">Allez au layout</string>
+    <string name="menuChoice1">Choix 1</string>
+    <string name="menuChoice2">Choix 2</string>
+    <string name="menuChoice3">Choix 3</string>
+    <string name="menuChoice4">Choix 4</string>
+    <string name="positive">Entrez</string>
+    <string name="negative">Annuler</string>
+    <string name="menuMessage">C\'est quoi vos nouveau message?</string>
+    <string name="snackBarText">Retourner?</string>
+    <string name="weatherText">Allez au prévoir</string>
 </resources>

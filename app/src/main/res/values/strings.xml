@@ -20,4 +20,15 @@
     <string name="send">Send</string>
     <string name="receive">Receive</string>
     <string name="chatHint">Type here</string>
+    <string name="layoutText">Go to layout</string>
+    <string name="menuChoice1">Choice 1</string>
+    <string name="menuChoice2">Choice 2</string>
+    <string name="menuChoice3">Choice 3</string>
+    <string name="menuChoice4">Choice 4</string>
+    <string name="positive">Enter</string>
+    <string name="negative">Cancel</string>
+    <string name="menuMessage">What is your new message?</string>
+    <string name="snackBarText">Go Back?</string>
+    <string name="weatherText">Go to forecast</string>
+
 </resources>

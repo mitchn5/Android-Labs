@@ -20,9 +20,10 @@ public class AndroidLabActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_lab3);
+        emailEdit = findViewById(R.id.emailInput);
 
         prefs = getSharedPreferences("com.example.app", Context.MODE_PRIVATE);
-        emailEdit = findViewById(R.id.emailInput);
+
         String emailS = prefs.getString("ReserveName", "");
         emailEdit.setText(emailS);
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuItem1"
+        android:title="@string/menuChoice1"
+        android:icon="@drawable/exclamation"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menuItem2"
+        android:title="@string/menuChoice2"
+        android:icon="@drawable/android"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menuItem3"
+        android:title="@string/menuChoice3"
+        android:icon="@drawable/backup"
+        android:orderInCategory="300"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menuItem4"
+        android:title="@string/menuChoice4"
+        android:icon="@drawable/checkmark"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        />
+</menu>
